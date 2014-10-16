@@ -12,7 +12,7 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "gh",
+    "remote": "github",
     "repository": "arrrghhh/android_kernel_motorola_msm8960-common",
     "target_path": "kernel/motorola/msm8960-common",
     "revision": "cm-11.0_mod"
