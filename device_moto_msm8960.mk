@@ -112,11 +112,6 @@ PRODUCT_COPY_FILES += \
     device/motorola/qcom-common/idc/atmxt-i2c.idc:recovery/root/vendor/firmware/atmxt-i2c.idc \
     vendor/motorola/moto_msm8960_jbbl/proprietary/etc/firmware/atmxt-r2.tdat:recovery/root/vendor/firmware/atmxt-r2.tdat
 
-# Device Info
-PRODUCT_COPY_FILES += \
-    ro.product.device=moto_msm8960_jbbl
-    ro.product.model=MOTOROLA MSM8960
-
 # Include 960x540 boot animation in the zip
 PRODUCT_COPY_FILES += \
     vendor/bliss/prebuilt/common/bootanimation/540.zip:system/media/540.zip
